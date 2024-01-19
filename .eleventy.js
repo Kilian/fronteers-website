@@ -160,7 +160,7 @@ module.exports = function (eleventyConfig) {
             input: 'src',
             output: 'dist',
             includes: '_includes',
-            layouts: '_layouts',
+            layouts: '_includes/layouts',
             data: '_data',
         },
     };
